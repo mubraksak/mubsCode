@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+    function myvalidation(){
+
+        var name = prompt('input your name');
+        var age = prompt('input your age');
+        document.write("my name is  " + name +"  i am "+ age+"years old" +"\n")
+    if( age > 18 ){
+        
+        document.write(" "+"\n" + "qualified to use this site");
+    }else{
+        document.write(" " +"\n" + "not qualified to use the");
+         }
+    }
+    </script>
+    <input type="submit" value="validate age" name="submit" onclick="myvalidation()">
+</body>
+</html>
